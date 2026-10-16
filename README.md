@@ -48,3 +48,11 @@ A primeira versão do TaskUni priorizará as funcionalidades de cadastro, consul
 ## 🎓 Contexto acadêmico
 
 Projeto desenvolvido para a disciplina **Programação para Internet**, como atividade prática do segundo bimestre, com foco em programação orientada a objetos, desenvolvimento web e integração entre frontend e backend.
+
+## 📐 Diagrama UML
+
+O diagrama abaixo representa a estrutura inicial das classes
+do TaskUni, incluindo seus atributos, métodos e relacionamento.
+
+![Diagrama UML do TaskUni](docs/diagrama-uml.png)
+
