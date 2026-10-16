@@ -54,5 +54,5 @@ Projeto desenvolvido para a disciplina **Programação para Internet**, como ati
 O diagrama abaixo representa a estrutura inicial das classes
 do TaskUni, incluindo seus atributos, métodos e relacionamento.
 
-![Diagrama UML do TaskUni](docs/diagrama-uml.png)
+![Diagrama UML TaskUni.png](docs/diagrama-uml.png)
 
