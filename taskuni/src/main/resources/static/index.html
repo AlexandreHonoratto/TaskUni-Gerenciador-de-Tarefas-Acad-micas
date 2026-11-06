@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>TaskUni</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <h1>TaskUni</h1>
+        <p>Gerenciador de Tarefas Acadêmicas</p>
+
+        <section>
+            <h2>Cadastrar tarefa</h2>
+
+            <form id="formTarefa">
+                <input id="titulo" type="text"
+                       placeholder="Título da tarefa"
+                       required>
+
+                <textarea id="descricao"
+                          placeholder="Descrição"></textarea>
+
+                <input id="disciplina" type="text"
+                       placeholder="Disciplina"
+                       required>
+
+                <input id="prazo" type="date"
+                       required>
+
+                <button type="submit">
+                    Cadastrar tarefa
+                </button>
+            </form>
+            <p id="mensagem" role="status"></p>
+        </section>
+
+        <section>
+            <h2>Minhas tarefas</h2>
+            <div id="listaTarefas"></div>
+        </section>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
